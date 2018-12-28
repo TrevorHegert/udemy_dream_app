@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-servers',
@@ -11,10 +11,6 @@ export class ServersComponent {
   constructor() {
     setTimeout(() => {
       this.allowNewServer = true;
-    }, 2000)
-  }
-
-  ngOnInit() {
-
+    }, 2000);
   }
 }
